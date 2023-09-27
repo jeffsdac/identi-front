@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+:root {
+  --foreground-rgb: 17, 24, 39;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.test-border{
+  border: 1px solid black;
+}
+
+.shadow-nav-box{
+  border-bottom: 1px solid #3b83f648;
+  box-shadow: 0px 4px 4px 0px #3b83f665;
+}
+
+.josefina{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.button-nav-bar{
+  display: flex;
+  width: 138px;
+  height: 40px;
+  padding: 10px 43px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 20px;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 20px;
+}
+
+.bg-button-light{
+  background: #3B82F6;
+}
+
+.bg-button-dark{
+  background: #1D4ED8;
+}
